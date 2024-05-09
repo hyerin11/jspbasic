@@ -1,4 +1,4 @@
-package com.jsp.chap02;
+package chap02;
 
 import com.jsp.entity.Dancer;
 

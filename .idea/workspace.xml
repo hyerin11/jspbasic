@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6abf1914-2019-4246-a664-bf716503a7db" name="변경" comment="#HttpServlet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/DancerListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/DancerRegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/DancerSaveProcessServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap01/BasicServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/entity/Dancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="6abf1914-2019-4246-a664-bf716503a7db" name="변경" comment="#서블릿으로만 애플리케이션 만들기">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/chap03/dancer/process.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/chap03/dancer/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/process_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/process_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/register_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/register_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/greeting_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/greeting_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap02/DancerListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap02/DancerListServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +105,20 @@
       <option name="project" value="LOCAL" />
       <updated>1715155073165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="#서블릿으로만 애플리케이션 만들기">
+      <option name="closed" value="true" />
+      <created>1715236858111</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715236858111</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#HttpServlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="#HttpServlet" />
+    <MESSAGE value="#서블릿으로만 애플리케이션 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="#서블릿으로만 애플리케이션 만들기" />
   </component>
 </project>
