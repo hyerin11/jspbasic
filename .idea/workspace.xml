@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6abf1914-2019-4246-a664-bf716503a7db" name="변경" comment="#서블릿으로만 애플리케이션 만들기">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/chap03/dancer/process.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/chap03/dancer/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/greeting.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/process_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/process_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/register_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/register_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/greeting_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/greeting_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/DancerFormRequestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/ShowDancerListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerMemoryRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap02/DancerListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap02/DancerListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/greeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/greeting.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +53,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/jspbasic/src/main/java/com/jsp/Main.java&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/jspbasic/src/main/webapp/WEB-INF/chap04",
+    "onboarding.tips.debug.path": "E:/jspbasic/src/main/java/com/jsp/Main.java",
+    "애플리케이션.Main.executor": "Run"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\jspbasic\src\main\webapp\WEB-INF\chap04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\jspbasic\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jsp.Main" />
@@ -113,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715236858111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#서블릿으로만 애플리케이션 만들기">
+      <option name="closed" value="true" />
+      <created>1715241019761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715241019761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
