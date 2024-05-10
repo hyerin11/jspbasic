@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6abf1914-2019-4246-a664-bf716503a7db" name="변경" comment="#서블릿으로만 애플리케이션 만들기2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/JdbcBasic.java" afterDir="false" />
+    <list default="true" id="6abf1914-2019-4246-a664-bf716503a7db" name="변경" comment="#서블릿으로만 애플리케이션 만들기3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/JdbcBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/JdbcBasic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,8 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/jspbasic/src/main/webapp/WEB-INF/chap04",
     "onboarding.tips.debug.path": "E:/jspbasic/src/main/java/com/jsp/Main.java",
-    "애플리케이션.Main.executor": "Run"
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Test.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -65,8 +67,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\jspbasic\src\main\webapp\WEB-INF" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jsp.repository" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jsp.Main" />
       <module name="jspbasic" />
@@ -80,9 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jsp.chap05.Test" />
+      <module name="jspbasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jsp.chap05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +146,22 @@
       <option name="project" value="LOCAL" />
       <updated>1715312341279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="#서블릿으로만 애플리케이션 만들기3">
+      <option name="closed" value="true" />
+      <created>1715322368746</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715322368746</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#HttpServlet" />
     <MESSAGE value="#서블릿으로만 애플리케이션 만들기" />
     <MESSAGE value="#서블릿으로만 애플리케이션 만들기2" />
-    <option name="LAST_COMMIT_MESSAGE" value="#서블릿으로만 애플리케이션 만들기2" />
+    <MESSAGE value="#서블릿으로만 애플리케이션 만들기3" />
+    <option name="LAST_COMMIT_MESSAGE" value="#서블릿으로만 애플리케이션 만들기3" />
   </component>
 </project>
