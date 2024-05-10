@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6abf1914-2019-4246-a664-bf716503a7db" name="변경" comment="#서블릿으로만 애플리케이션 만들기3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" afterDir="false" />
+    <list default="true" id="6abf1914-2019-4246-a664-bf716503a7db" name="변경" comment="#서블릿으로만 애플리케이션 만들기4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/JdbcBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/JdbcBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/ShowDancerListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/ShowDancerListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="com.jsp.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Test">
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jsp.Main" />
       <module name="jspbasic" />
@@ -154,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715322368746</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="#서블릿으로만 애플리케이션 만들기4">
+      <option name="closed" value="true" />
+      <created>1715326817905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715326817905</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +169,7 @@
     <MESSAGE value="#서블릿으로만 애플리케이션 만들기" />
     <MESSAGE value="#서블릿으로만 애플리케이션 만들기2" />
     <MESSAGE value="#서블릿으로만 애플리케이션 만들기3" />
-    <option name="LAST_COMMIT_MESSAGE" value="#서블릿으로만 애플리케이션 만들기3" />
+    <MESSAGE value="#서블릿으로만 애플리케이션 만들기4" />
+    <option name="LAST_COMMIT_MESSAGE" value="#서블릿으로만 애플리케이션 만들기4" />
   </component>
 </project>
