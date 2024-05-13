@@ -35,5 +35,8 @@ public class ShowDancerListServlet extends HttpServlet {
                 = req.getRequestDispatcher("/WEB-INF/chap04/dancer-list.jsp");
         rd.forward(req, resp);
 
+
+
+
     }
 }
