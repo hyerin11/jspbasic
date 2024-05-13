@@ -2,6 +2,8 @@ package com.jsp.chap04;
 
 import com.jsp.entity.Dancer;
 import com.jsp.repository.DancerJdbcRepo;
+import com.jsp.repository.DancerMemoryRepo;
+import com.jsp.repository.DancerRepository;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,7 +17,14 @@ import java.util.List;
 @WebServlet("/chap04/remove")
 public class DancerRemoveServlet extends HttpServlet {
 
-    private final DancerJdbcRepo repo = DancerJdbcRepo.getInstance();
+//    private DancerMemoryRepo repo = DancerMemoryRepo.getInstance();
+//    private DancerJdbcRepo repo = DancerJdbcRepo.getInstance();
+
+    private DancerRepository repo;
+
+    public DancerRemoveServlet(DancerRepository repo) {
+        this.repo = repo;
+    }
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -31,21 +40,8 @@ public class DancerRemoveServlet extends HttpServlet {
         // db에 삭제명령
         repo.delete(id);
 
-//        List<Dancer> dancerList = repo.retrieve();
-//
-//        req.setAttribute("dancers", dancerList);
-//
-//        // 적절한 화면 이동
-//        RequestDispatcher dp
-//                = req.getRequestDispatcher("/WEB-INF/chap04/dancer-list.jsp");
-//        dp.forward(req, resp);
-
-
-        // /chap04/show-list 요청을 자동으로 보냄(리다이렉션)
-
+        // /chap04/show-list 요청을 자동으로 보냄 ( 리다이렉션 )
         resp.sendRedirect("/chap04/show-list");
-
-
 
     }
 }
