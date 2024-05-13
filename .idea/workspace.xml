@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6abf1914-2019-4246-a664-bf716503a7db" name="변경" comment="#서블릿으로만 애플리케이션 만들기4">
+    <list default="true" id="6abf1914-2019-4246-a664-bf716503a7db" name="변경" comment="#서블릿으로만 애플리케이션 만들기5_댄서리스트 데이터베이스에 저장">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/DancerRemoveServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/ShowDancerListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/ShowDancerListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/entity/Dancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/entity/Dancer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,18 +47,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/jspbasic/src/main/webapp/WEB-INF/chap04",
-    "onboarding.tips.debug.path": "E:/jspbasic/src/main/java/com/jsp/Main.java",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.Test.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/jspbasic/src/main/webapp/WEB-INF/chap04&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/jspbasic/src/main/java/com/jsp/Main.java&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Test.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\jspbasic\src\main\webapp\WEB-INF\chap04" />
@@ -161,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715326817905</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="#서블릿으로만 애플리케이션 만들기5_댄서리스트 데이터베이스에 저장">
+      <option name="closed" value="true" />
+      <created>1715328273143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715328273143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,6 +178,7 @@
     <MESSAGE value="#서블릿으로만 애플리케이션 만들기2" />
     <MESSAGE value="#서블릿으로만 애플리케이션 만들기3" />
     <MESSAGE value="#서블릿으로만 애플리케이션 만들기4" />
-    <option name="LAST_COMMIT_MESSAGE" value="#서블릿으로만 애플리케이션 만들기4" />
+    <MESSAGE value="#서블릿으로만 애플리케이션 만들기5_댄서리스트 데이터베이스에 저장" />
+    <option name="LAST_COMMIT_MESSAGE" value="#서블릿으로만 애플리케이션 만들기5_댄서리스트 데이터베이스에 저장" />
   </component>
 </project>
